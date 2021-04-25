@@ -136,3 +136,22 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# browser
+Application/
+Mozilla Firefox/
+
+# virtualenvwrapper-win setting files
+.vscode/
+
+# aws package
+package/
+
+# compression files
+*.zip
+*.rar
+
+# data files
+data/
+output/
+

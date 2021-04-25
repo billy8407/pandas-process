@@ -31,7 +31,7 @@ delete_row_index=[]
 new_date = True
 new_maturity_month = ''
 
-for row in range(2000):
+for row in range(row_num):
     maturity_month = df.loc[row, 'maturity_month'].replace(' ','')
     if len(maturity_month) != 6:
         delete_row_index.append(row)
